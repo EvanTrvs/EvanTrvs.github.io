@@ -1,121 +1,168 @@
-// Load configuration
-async function loadConfig() {
+// Language management
+let currentLang = 'en';
+const langToggle = document.querySelector('.lang-toggle');
+const langOptions = document.querySelector('.lang-options');
+
+// Toggle language options
+langToggle.addEventListener('click', () => {
+    langOptions.classList.toggle('show');
+});
+
+// Change language
+document.querySelectorAll('.lang-option').forEach(option => {
+    option.addEventListener('click', () => {
+        currentLang = option.dataset.lang;
+        langToggle.textContent = currentLang.toUpperCase();
+        langOptions.classList.remove('show');
+        updateContent();
+    });
+});
+
+// Load and display projects
+async function loadProjects() {
     try {
         const response = await fetch('/config/links.json');
-        return await response.json();
-    } catch (error) {
-        console.error('Error loading configuration:', error);
-        return null;
-    }
-}
-
-// Create project card
-function createProjectCard(project) {
-    const card = document.createElement('div');
-    card.className = 'project-card';
-    card.setAttribute('data-project-id', project.id);
-
-    const thumbnail = document.createElement('img');
-    thumbnail.className = 'project-thumbnail';
-    thumbnail.src = project.thumbnail;
-    thumbnail.alt = project.title[currentLang];
-
-    const info = document.createElement('div');
-    info.className = 'project-info';
-
-    const title = document.createElement('h3');
-    title.textContent = project.title[currentLang];
-
-    const description = document.createElement('p');
-    description.textContent = project.description[currentLang];
-
-    const links = document.createElement('div');
-    links.className = 'project-links';
-
-    const githubLink = document.createElement('a');
-    githubLink.href = project.github;
-    githubLink.target = '_blank';
-    githubLink.className = 'btn';
-    githubLink.textContent = translations[currentLang].projects.viewCode;
-
-    links.appendChild(githubLink);
-    info.appendChild(title);
-    info.appendChild(description);
-    info.appendChild(links);
-
-    card.appendChild(thumbnail);
-    card.appendChild(info);
-
-    return card;
-}
-
-// Initialize projects
-async function initializeProjects() {
-    const config = await loadConfig();
-    if (!config) return;
-
-    const projectsGrid = document.getElementById('projects-grid');
-    if (!projectsGrid) return;
-
-    // Clear existing projects
-    projectsGrid.innerHTML = '';
-
-    // Add projects
-    config.projects.forEach(project => {
-        const card = createProjectCard(project);
-        projectsGrid.appendChild(card);
-    });
-
-    // Update social links
-    const githubLink = document.getElementById('github-link');
-    const linkedinLink = document.getElementById('linkedin-link');
-    const contactLinkedin = document.getElementById('contact-linkedin');
-
-    if (githubLink) githubLink.href = config.social.github;
-    if (linkedinLink) linkedinLink.href = config.social.linkedin;
-    if (contactLinkedin) contactLinkedin.href = config.social.linkedin;
-}
-
-// CV Preview functionality
-function initializeCVPreview() {
-    const preview = document.querySelector('.cv-preview');
-    const iframe = document.getElementById('cv-iframe');
-    const closeBtn = document.querySelector('.cv-preview-close');
-    const previewBtns = document.querySelectorAll('.cv-preview-btn');
-
-    function openPreview(cvPath) {
-        iframe.src = `CV/${cvPath}`;
-        preview.classList.add('active');
-        document.body.style.overflow = 'hidden';
-    }
-
-    function closePreview() {
-        preview.classList.remove('active');
-        iframe.src = '';
-        document.body.style.overflow = '';
-    }
-
-    previewBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            const cvPath = btn.getAttribute('data-cv');
-            openPreview(cvPath);
+        const data = await response.json();
+        const projectsContainer = document.querySelector('.projects-grid');
+        
+        data.projects.forEach(project => {
+            const projectCard = document.createElement('div');
+            projectCard.className = 'project-card';
+            
+            projectCard.innerHTML = `
+                <div class="project-thumbnail">
+                    <img src="${project.thumbnail}" alt="${project.title[currentLang]}">
+                </div>
+                <div class="project-info">
+                    <h3>${project.title[currentLang]}</h3>
+                    <p>${project.description[currentLang]}</p>
+                    <div class="project-tags">
+                        ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                    <div class="project-links">
+                        <a href="${project.github}" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            `;
+            
+            projectsContainer.appendChild(projectCard);
         });
-    });
-
-    closeBtn.addEventListener('click', closePreview);
-    preview.addEventListener('click', (e) => {
-        if (e.target === preview) {
-            closePreview();
-        }
-    });
-
-    // Close preview with Escape key
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && preview.classList.contains('active')) {
-            closePreview();
-        }
-    });
+    } catch (error) {
+        console.error('Error loading projects:', error);
+    }
 }
+
+// Load and display timeline
+async function loadTimeline() {
+    try {
+        const response = await fetch('/config/links.json');
+        const data = await response.json();
+        const educationContainer = document.querySelector('.education-items');
+        const experienceContainer = document.querySelector('.experience-items');
+        
+        // Load education
+        data.timeline.education.forEach(item => {
+            const timelineItem = document.createElement('div');
+            timelineItem.className = 'timeline-item';
+            
+            timelineItem.innerHTML = `
+                <div class="timeline-content">
+                    <h3>${item.title[currentLang]}</h3>
+                    <h4>${item.school}</h4>
+                    <p class="period">${item.period}</p>
+                    <p>${item.description[currentLang]}</p>
+                </div>
+            `;
+            
+            educationContainer.appendChild(timelineItem);
+        });
+        
+        // Load experience
+        data.timeline.experience.forEach(item => {
+            const timelineItem = document.createElement('div');
+            timelineItem.className = 'timeline-item';
+            
+            timelineItem.innerHTML = `
+                <div class="timeline-content">
+                    <h3>${item.title[currentLang]}</h3>
+                    <h4>${item.company}</h4>
+                    <p class="period">${item.period}</p>
+                    <p>${item.description[currentLang]}</p>
+                </div>
+            `;
+            
+            experienceContainer.appendChild(timelineItem);
+        });
+    } catch (error) {
+        console.error('Error loading timeline:', error);
+    }
+}
+
+// Update about section
+async function updateAbout() {
+    try {
+        const response = await fetch('/config/links.json');
+        const data = await response.json();
+        const aboutSection = document.querySelector('.about-content');
+        
+        aboutSection.innerHTML = `
+            <div class="about-info">
+                <p><i class="fas fa-map-marker-alt"></i> ${data.about.location}</p>
+                <p><i class="fas fa-birthday-cake"></i> ${data.about.age} years</p>
+                <p><i class="fas fa-envelope"></i> ${data.about.email}</p>
+            </div>
+            <p class="about-description">${data.about.description[currentLang]}</p>
+            <div class="social-links">
+                <a href="${data.social.github}" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="${data.social.linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        `;
+    } catch (error) {
+        console.error('Error updating about section:', error);
+    }
+}
+
+// Update all content based on current language
+function updateContent() {
+    // Clear existing content
+    document.querySelector('.projects-grid').innerHTML = '';
+    document.querySelector('.education-items').innerHTML = '';
+    document.querySelector('.experience-items').innerHTML = '';
+    
+    // Reload content with new language
+    loadProjects();
+    loadTimeline();
+    updateAbout();
+}
+
+// CV Preview Modal
+const cvButton = document.querySelector('.cv-button');
+const cvModal = document.querySelector('.cv-modal');
+const closeModal = document.querySelector('.close-modal');
+
+cvButton.addEventListener('click', () => {
+    cvModal.classList.add('show');
+});
+
+closeModal.addEventListener('click', () => {
+    cvModal.classList.remove('show');
+});
+
+// Close modal when clicking outside
+cvModal.addEventListener('click', (e) => {
+    if (e.target === cvModal) {
+        cvModal.classList.remove('show');
+    }
+});
+
+// Initialize content
+document.addEventListener('DOMContentLoaded', () => {
+    loadProjects();
+    loadTimeline();
+    updateAbout();
+});
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -129,10 +176,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             });
         }
     });
-});
-
-// Initialize everything when the DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    initializeProjects();
-    initializeCVPreview();
 }); 
