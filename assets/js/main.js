@@ -76,6 +76,47 @@ async function initializeProjects() {
     if (contactLinkedin) contactLinkedin.href = config.social.linkedin;
 }
 
+// CV Preview functionality
+function initializeCVPreview() {
+    const preview = document.querySelector('.cv-preview');
+    const iframe = document.getElementById('cv-iframe');
+    const closeBtn = document.querySelector('.cv-preview-close');
+    const previewBtns = document.querySelectorAll('.cv-preview-btn');
+
+    function openPreview(cvPath) {
+        iframe.src = `CV/${cvPath}`;
+        preview.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closePreview() {
+        preview.classList.remove('active');
+        iframe.src = '';
+        document.body.style.overflow = '';
+    }
+
+    previewBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const cvPath = btn.getAttribute('data-cv');
+            openPreview(cvPath);
+        });
+    });
+
+    closeBtn.addEventListener('click', closePreview);
+    preview.addEventListener('click', (e) => {
+        if (e.target === preview) {
+            closePreview();
+        }
+    });
+
+    // Close preview with Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && preview.classList.contains('active')) {
+            closePreview();
+        }
+    });
+}
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -93,4 +134,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Initialize everything when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     initializeProjects();
+    initializeCVPreview();
 }); 
