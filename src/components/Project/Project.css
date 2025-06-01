@@ -1,0 +1,33 @@
+.project-title {
+    border-bottom: 3px solid black;    
+    margin-bottom: 1vh;
+    padding-bottom: 0.75vh;
+}
+
+.content h1{
+    font-variant-caps: all-small-caps;
+}
+
+.content h2{
+    font-variant-caps: small-caps;
+}
+
+
+
+.content .section {
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+}
+
+.content .section p {
+    text-align: justify;
+}
+
+.stack-badge{
+    background-color: #4464AD;
+    font-variant: normal;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}

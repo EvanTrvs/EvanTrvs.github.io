@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    background-color: #ededf7;
+    cursor : none
+}
+
+
+html {
+    --cursor-color: #333
+  }
+  
+  html.dark-mode {
+    --cursor-color: #fff
+  }

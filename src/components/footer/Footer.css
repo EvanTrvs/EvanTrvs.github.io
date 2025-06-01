@@ -1,0 +1,22 @@
+.footer {
+    background-color: #000; /* Fond noir */
+    color: #fff; /* Texte blanc */
+    padding: 20px 0; /* Espacement vertical */
+    margin-top: auto; /* Garde le footer en bas si contenu est faible */
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 14px; /* Taille de texte agréable */
+}
+
+.footer-link {
+    color: #4464AD; /* Couleur de lien orange */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+    color: #6a7faf; /* Change la couleur au survol */
+}
+    

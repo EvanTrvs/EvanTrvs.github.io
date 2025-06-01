@@ -1,0 +1,100 @@
+{
+    "udes" : {
+        "title" : "Maîtrise en informatique",
+        "date" : "2024 - présent",
+        "subtitle" : "Université de Sherbrooke, Québec 🇨🇦",
+        "content" : "Double diplôme avec Polytech Tours, approfondissement en sciences des données, IA, traitement d’images et génie logiciel.",
+        "details" : {
+            "fall" : {
+                "title" : "Automne 2024",
+                "list" : {
+                    "1" : "Techniques d'apprentissage",
+                    "2" : "Reconstruction et analyse d'images médicales",
+                    "3" : "Science des données",
+                    "4" : "Informatique cognitive"
+                }
+            },
+            "winter" : {
+                "title" : "Hiver 2025",
+                "list" : {
+                    "1" : "Planification en intelligence artificielle",
+                    "2" : "Techniques et outils de développement",
+                    "3" : "Approches orientées objets",
+                    "4" : "Forage de données"
+                }
+            }
+        }
+    },
+    "dupliprint": {
+        "title": "Stage Assistant Ingénieur Informatique",
+        "date": "Été 2024",
+        "subtitle": "Dupliprint, Mayenne 🇫🇷",
+        "content": "Migration ERP et développement d'applications industrielles pour la gestion des stocks et l'automatisation des processus.",
+        "details": {
+            "tasks": {
+                "title": "Missions",
+                "list": {
+                    "1": "Adaptation du système de suivi des stocks avec EDI",
+                    "2": "Conception et implémentation de l'architecture de données",
+                    "3": "Création d'interfaces utilisateur",
+                    "4": "Gestion automatisée de données volumineuses"
+                }
+            },
+            "skills": {
+                "title": "Compétences",
+                "list": {
+                    "1": "VB.NET",
+                    "2": "Microsoft SQL Server",
+                    "3": "Automatisation",
+                    "4": "Documentation technique"
+                }
+            }
+        }
+    },
+    "polytech" : {
+        "title" : "Ingénieur en Informatique",
+        "date" : "2022 - présent",
+        "subtitle" : "Polytech Tours, 🇫🇷",
+        "content" : "Cycle Ingénieur en Informatique avec approfondissement en génie logiciel, gestion de projet et optimisation des systèmes.",
+        "details" : {
+            "courses" : {
+                "title": "Compétences clés",
+                "list": {
+                    "1": "Génie logiciel & architecture logicielle",
+                    "2": "Gestion de projet et travail d'équipe",
+                    "3": "Développement Python, Java et C++",
+                    "4": "Optimisation d'algorithmes",
+                    "5": "Bases de données (SQL, SGBD)",
+                    "6": "Développement web (HTML, CSS)",
+                    "7": "Versioning et bonnes pratiques de développement",
+                    "8": "Modélisation UML"
+                }
+            }
+        }
+    },
+    "toeic" : {
+        "title" : "Certification TOEIC",
+        "date" : "Février 2024",
+        "subtitle" : "940/990",
+        "content" : "",
+        "details" : {
+            "description" : {
+                "title" : "Qu'est-ce que le TOEIC ?",
+                "content" : "Le TOEIC (Test of English for International Communication) mesure les compétences en anglais dans des contextes professionnels."
+            },
+            "score" : {
+                "title" : "Comprendre le score :",
+                "list" : {
+                    "1" : "Niveau B2 en Europe",
+                    "2" : "Équivalent à 4.5/5"
+                }
+            }
+        }
+    },
+    "peip" : {
+        "title" : "Préparation aux Ecoles d’Ingénieur Polytech",
+        "date" : "Septembre 2020 - Juin 2022",
+        "subtitle" : "Poytech Tours, 🇫🇷",
+        "content" : "Cycle préparatoire intégré de l'école Polytech Tours. Deux années de formation pluridisciplinaire tournés vers le métier d’ingénieur, à l'UFR Sciences et Techniques de Tours."
+    }
+}

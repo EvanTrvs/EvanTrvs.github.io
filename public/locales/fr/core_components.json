@@ -1,0 +1,31 @@
+{
+    "title" : {
+        "line1" : "Salut! ",
+        "line2" : "ici"
+    },
+    "subtitle" : "Étudiant Ingénieur en Informatique",
+    "description" : "Curieux et passionné par l'informatique et ses vastes possibilités, je recherche un stage de fin d'études avec un intérêt particulier pour la science des données, les approches d'intelligence artificielle et le développement logiciel.",
+    "buttons" : {
+        "timeline_details" : {
+            "show" : "Voir les détails",
+            "hide" : "Cacher les détails"
+        },
+        "github" : "Voir sur GitHub",
+        "story" : "L'histoire"
+    },
+    "section" : {
+        "projects" : {
+            "title" : "Projets"
+        },
+        "timeline" : {
+            "title" : "Parcours"
+        },
+        "about_me" : {
+            "title" : "À propos de moi"
+        }
+    },
+    "footer": {
+        "last_update": "Dernière mise à jour : Juin 2025",
+        "code": "Code du portfolio disponible sur"
+    }
+}

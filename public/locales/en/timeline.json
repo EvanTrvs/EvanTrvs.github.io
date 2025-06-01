@@ -1,0 +1,100 @@
+{
+    "udes": {
+        "title": "Master's in Computer Science",
+        "date": "2024 - present",
+        "subtitle": "Université de Sherbrooke, Quebec 🇨🇦",
+        "content": "Dual degree with Polytech Tours, specializing in data science, AI, image processing and software engineering.",
+        "details": {
+            "fall": {
+                "title": "Fall 2024",
+                "list": {
+                    "1": "Machine learning techniques",
+                    "2": "Medical image reconstruction and analysis",
+                    "3": "Data science",
+                    "4": "Cognitive computing"
+                }
+            },
+            "winter": {
+                "title": "Winter 2025",
+                "list": {
+                    "1": "AI planning",
+                    "2": "Development techniques and tools",
+                    "3": "Object-oriented approaches",
+                    "4": "Data mining"
+                }
+            }
+        }
+    },
+    "dupliprint": {
+        "title": "IT Engineering Internship",
+        "date": "Summer 2024",
+        "subtitle": "Dupliprint, Mayenne 🇫🇷",
+        "content": "ERP migration and industrial application development for inventory management and process automation.",
+        "details": {
+            "tasks": {
+                "title": "Key Responsibilities",
+                "list": {
+                    "1": "Stock tracking system adaptation with EDI",
+                    "2": "Data architecture design and implementation",
+                    "3": "User interface development",
+                    "4": "Automated large-scale data management"
+                }
+            },
+            "skills": {
+                "title": "Skills",
+                "list": {
+                    "1": "VB.NET",
+                    "2": "Microsoft SQL Server",
+                    "3": "Automation",
+                    "4": "Technical documentation"
+                }
+            }
+        }
+    },
+    "polytech": {
+        "title": "Computer Science Engineering",
+        "date": "2022 - present",
+        "subtitle": "Polytech Tours, 🇫🇷",
+        "content": "Engineering degree in Computer Science with focus on software engineering, project management and system optimization.",
+        "details": {
+            "courses": {
+                "title": "Key Skills",
+                "list": {
+                    "1": "Software engineering & architecture",
+                    "2": "Project management and teamwork",
+                    "3": "Python, Java and C++ development",
+                    "4": "Algorithm optimization",
+                    "5": "Databases (SQL, DBMS)",
+                    "6": "Web development (HTML, CSS)",
+                    "7": "Version control and best practices",
+                    "8": "UML modeling"
+                }
+            }
+        }
+    },
+    "toeic": {
+        "title": "TOEIC Certification",
+        "date": "February 2024",
+        "subtitle": "940/990",
+        "content": "",
+        "details": {
+            "description": {
+                "title": "What is TOEIC?",
+                "content": "The TOEIC (Test of English for International Communication) measures English proficiency in professional contexts."
+            },
+            "score": {
+                "title": "Understanding the score:",
+                "list": {
+                    "1": "B2 level in Europe",
+                    "2": "Equivalent to 4.5/5"
+                }
+            }
+        }
+    },
+    "peip": {
+        "title": "Preparatory Program for Engineering Schools",
+        "date": "September 2020 - June 2022",
+        "subtitle": "Polytech Tours, 🇫🇷",
+        "content": "Integrated preparatory cycle at Polytech Tours. Two years of multidisciplinary training focused on engineering professions at the UFR Sciences et Techniques de Tours."
+    }
+}

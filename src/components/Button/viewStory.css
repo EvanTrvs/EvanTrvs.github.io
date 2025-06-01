@@ -1,0 +1,23 @@
+.view-story {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #4464AD;
+  width: fit-content;
+  text-decoration: none;
+    font-size: large;
+  
+}
+
+.view-story:hover {
+  color: #506ba8;
+  font-size: x-larger;
+}
+
+.view-story p{
+    margin: 0;
+    
+    margin-right: 5px;
+    font-variant-caps: all-petite-caps;
+}

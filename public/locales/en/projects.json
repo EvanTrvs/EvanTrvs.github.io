@@ -1,0 +1,13 @@
+{
+    "viewMore": "View More",
+    "close": "Close",
+    "test": {
+        "title": "testTitle",
+        "subtitle": "Sub title",
+        "date": "October 2023 - May 2024",
+        "description": "Descriptions",
+        "link": "https://www.google.com/",
+        "thumbnail": "",
+        "badges": ["test"]
+    }
+}
