@@ -6,8 +6,8 @@
         "subtitle": "Sub Titre",
         "date": "Octobre 2023 - Mai 2024",
         "description": "Descriptions",
-        "link": "https://www.google.com/",
-        "thumbnail": "",
+        "link": "https://github.com/EvanTrvs/3Dpics_SplitMerge",
+        "thumbnail": "/assets/thumbnails/3D_Split&Merge.png",
         "badges": ["test"]
     }
 }

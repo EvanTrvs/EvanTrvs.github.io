@@ -2,11 +2,11 @@
     "viewMore": "View More",
     "close": "Close",
     "test": {
-        "title": "testTitle",
+        "title": "3D_Split&Merge",
         "subtitle": "Sub title",
         "date": "October 2023 - May 2024",
         "description": "Descriptions",
-        "link": "https://www.google.com/",
+        "link": "https://github.com/EvanTrvs/3Dpics_SplitMerge",
         "thumbnail": "",
         "badges": ["test"]
     }
