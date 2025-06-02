@@ -31,21 +31,21 @@ export default function LogosComponent() {
                 <img src={pytorchLogo} alt="PyTorch Logo" title="PyTorch" />
                 
                 {/* Web Development */}
-                <img src={htmlLogo} alt="HTML Logo" title="HTML" />
-                <img src={jsLogo} alt="JavaScript Logo" title="JavaScript" />
-                <img src={reactLogo} alt="React Logo" title="React" />
+            <img src={htmlLogo} alt="HTML Logo" title="HTML" />
+            <img src={jsLogo} alt="JavaScript Logo" title="JavaScript" />
+            <img src={reactLogo} alt="React Logo" title="React" />
                 <img src={nodeLogo} alt="Node.js Logo" title="Node.js" />
                 <img src={npmLogo} alt="NPM Logo" title="NPM" />
                 
                 {/* DevOps & Tools */}
-                <img src={dockerLogo} alt="Docker Logo" title="Docker" />
+            <img src={dockerLogo} alt="Docker Logo" title="Docker" />
                 <img src={gitLogo} alt="Git Logo" title="Git" />
                 <img src={cicdLogo} alt="CI/CD Logo" title="CI/CD" />
                 
                 {/* Autres langages et outils */}
-                <img src={javaLogo} alt="Java Logo" title="Java" />
+            <img src={javaLogo} alt="Java Logo" title="Java" />
                 <img src={juliaLogo} alt="Julia Logo" title="Julia" />
-                <img src={sqliteLogo} alt="SQLite Logo" title="SQLite" />
+            <img src={sqliteLogo} alt="SQLite Logo" title="SQLite" />
                 <img src={cursorLogo} alt="Cursor Logo" title="Cursor" />
             </div>
 
@@ -60,21 +60,21 @@ export default function LogosComponent() {
                 <img src={pytorchLogo} alt="PyTorch Logo" title="PyTorch" />
                 
                 {/* Web Development */}
-                <img src={htmlLogo} alt="HTML Logo" title="HTML" />
-                <img src={jsLogo} alt="JavaScript Logo" title="JavaScript" />
-                <img src={reactLogo} alt="React Logo" title="React" />
+            <img src={htmlLogo} alt="HTML Logo" title="HTML" />
+            <img src={jsLogo} alt="JavaScript Logo" title="JavaScript" />
+            <img src={reactLogo} alt="React Logo" title="React" />
                 <img src={nodeLogo} alt="Node.js Logo" title="Node.js" />
                 <img src={npmLogo} alt="NPM Logo" title="NPM" />
                 
                 {/* DevOps & Tools */}
-                <img src={dockerLogo} alt="Docker Logo" title="Docker" />
+            <img src={dockerLogo} alt="Docker Logo" title="Docker" />
                 <img src={gitLogo} alt="Git Logo" title="Git" />
                 <img src={cicdLogo} alt="CI/CD Logo" title="CI/CD" />
                 
                 {/* Autres langages et outils */}
-                <img src={javaLogo} alt="Java Logo" title="Java" />
+            <img src={javaLogo} alt="Java Logo" title="Java" />
                 <img src={juliaLogo} alt="Julia Logo" title="Julia" />
-                <img src={sqliteLogo} alt="SQLite Logo" title="SQLite" />
+            <img src={sqliteLogo} alt="SQLite Logo" title="SQLite" />
                 <img src={cursorLogo} alt="Cursor Logo" title="Cursor" />
             </div>
         </div>

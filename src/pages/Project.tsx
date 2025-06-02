@@ -4,6 +4,11 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import ProjectModal from '../components/ProjectModal/ProjectModal';
 
+// Import all project thumbnails
+const projectThumbnails: { [key: string]: string } = {
+    'test': new URL('../assets/thumbnails/3D_Split&Merge.png', import.meta.url).href,
+};
+
 interface Project {
     id: string;
     title: string;
@@ -32,7 +37,7 @@ function Project() {
     const [selectedProject, setSelectedProject] = useState<string | null>(null);
 
     // Get all project keys from the translation file
-    const projectKeys = ['compiler', 'route-planner', 'english-invader', 'direct-dealing', 'aoc-2023', 'shared-garden', 'smart-greenhouse', 'portfolio'];
+    const projectKeys = ['test'];
 
     // Create projects array from translation data
     const Projects: Project[] = projectKeys.map(key => ({
@@ -42,7 +47,7 @@ function Project() {
         date: t(`${key}.date`, { defaultValue: '' }),
         description: t(`${key}.description`),
         link: t(`${key}.link`, { defaultValue: '' }),
-        thumbnail: t(`${key}.thumbnail`, { defaultValue: '' }),
+        thumbnail: projectThumbnails[key],
         badges: (t(`${key}.badges`, { returnObjects: true }) || []) as string[]
     }));
     
@@ -52,7 +57,7 @@ function Project() {
                 {Projects.map((project, index) => (
                     <Col key={project.id} xs={12} sm={6} md={4}>
                         <Card className="h-100 project-card" onClick={() => setSelectedProject(project.id)}>
-                            {project.thumbnail && project.thumbnail.trim() !== '' ? (
+                            {project.thumbnail ? (
                                 <Card.Img 
                                     variant="top" 
                                     src={project.thumbnail} 
