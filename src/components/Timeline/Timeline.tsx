@@ -24,7 +24,7 @@ function Timeline() {
           <>
             <Container className="py-3">
               <Image 
-                src="/portfolio/assets/udes.jpg" 
+                src="/assets/udes.jpg" 
                 alt="Université de Sherbrooke" 
                 style={{ width: '100%', marginBottom: '15px' }} 
               />
@@ -59,7 +59,7 @@ function Timeline() {
           <>
             <Container className="py-3">
               <Image 
-          src="/portfolio/assets/dpm.png" 
+          src="/assets/dpm.png" 
           alt="Dupliprint" 
           style={{ width: '100%', marginBottom: '15px' }} 
               />
@@ -93,7 +93,7 @@ function Timeline() {
           <>
             <Container className="py-3">
               <Image 
-          src="/portfolio/assets/polytechtours.jpg" 
+          src="/assets/polytechtours.jpg" 
           alt="Polytech Tours" 
           style={{ width: '100%', marginBottom: '15px' }} 
               />
@@ -123,7 +123,7 @@ function Timeline() {
         detail={
           <>
             <Container className='py-3'>
-          <Image src="/portfolio/assets/toeic.jpg" 
+          <Image src="/assets/toeic.jpg" 
               alt="TOEIC" 
               style={{ width: '100%', marginBottom: '15px' }} /> 
             </Container>

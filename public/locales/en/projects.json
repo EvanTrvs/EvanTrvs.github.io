@@ -1,13 +1,22 @@
 {
     "viewMore": "View More",
     "close": "Close",
-    "test": {
-        "title": "3D_Split&Merge",
-        "subtitle": "Sub title",
-        "date": "October 2023 - May 2024",
-        "description": "Descriptions",
+    "3D_Split&Merge": {
+        "title": "3D Split&Merge",
+        "subtitle": "Image Segmentation Algorithm",
+        "date": "September 2023 - January 2024",
+        "description": "C++ implementation and optimization of a multidimensional image segmentation algorithm. This programming project developed an image segmentation solution that partitions images into homogeneous regions - a crucial process for complex image analysis (medical imaging MRI, shape detection, 3D reconstruction).\n\nWe particularly focused on improving key criteria:\n- Determinism (for reproducible results)\n- Quality (for precise segmentation)\n- Speed (for efficient processing)\n\nThe project incorporates several technologies: the Boost library for multidimensional array manipulation, multithreading for accelerated computations, optimized memory management, and I/O routines for various image formats (NIfTI, PNG, JPEG, GIF).\n\nThis challenging project allowed me to deepen my skills in low-level C++ programming, object-oriented data structure design, and advanced algorithmics.\n\nProject completed as part of the engineering program at Polytech Tours.",
         "link": "https://github.com/EvanTrvs/3Dpics_SplitMerge",
-        "thumbnail": "",
-        "badges": ["test"]
+        "thumbnail": "/assets/thumbnails/3D_Split&Merge.png",
+        "badges": ["C++", "Optimization", "Imaging", "Multithreading", "2👤"]
+    },
+    "Portfolio": {
+    "title": "Personal Portfolio Website",
+    "subtitle": "Responsive Web Application",
+    "date": "April 2025",
+    "description": "Development of a modern, interactive portfolio showcasing my professional journey and projects. This website was designed to provide clear and intuitive navigation while allowing me to practice and learn current web development tools.\n\nProject aspects:\n- Intuitive and responsive user interface\n- Multilingual support (FR/EN)\n- Structured project presentation\n- Media integration and external links\n- Modern and professional design\n\nKey technologies:\n• React with TypeScript for a robust, type-safe foundation\n• Bootstrap for responsive design\n• Vite for optimal performance",
+    "link": "https://github.com/EvanTrvs/EvanTrvs.github.io",
+    "thumbnail": "",
+    "badges": ["React", "TypeScript", "Bootstrap", "Frontend", "Backend"]
     }
 }

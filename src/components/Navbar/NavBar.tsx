@@ -20,9 +20,9 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className='portfolio-navbar-link' href="/portfolio/#project">{t("projects")}</Nav.Link>
-            <Nav.Link className='portfolio-navbar-link' href="/portfolio/#timeline">{t("timeline")}</Nav.Link>
-            <Nav.Link className='portfolio-navbar-link' href="/portfolio/#about_me">{t("about me")}</Nav.Link>
+            <Nav.Link className='portfolio-navbar-link' href="/#project">{t("projects")}</Nav.Link>
+            <Nav.Link className='portfolio-navbar-link' href="/#timeline">{t("timeline")}</Nav.Link>
+            <Nav.Link className='portfolio-navbar-link' href="/#about_me">{t("about me")}</Nav.Link>
           </Nav>
           {/* <Button 
             className="ms-auto portfolio-navbar-button" 

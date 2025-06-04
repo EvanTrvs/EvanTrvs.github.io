@@ -1,0 +1,30 @@
+.project-description {
+    white-space: pre-wrap;
+}
+
+.project-description ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 1rem 0;
+}
+
+.project-description li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.project-description li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #4464AD;
+}
+
+.project-description p {
+    margin-bottom: 1rem;
+}
+
+.project-description br {
+    margin-bottom: 1rem;
+} 

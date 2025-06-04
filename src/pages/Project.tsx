@@ -6,7 +6,7 @@ import ProjectModal from '../components/ProjectModal/ProjectModal';
 
 // Import all project thumbnails
 const projectThumbnails: { [key: string]: string } = {
-    'test': new URL('../assets/thumbnails/3D_Split&Merge.png', import.meta.url).href,
+    '3D_Split&Merge': new URL('../assets/thumbnails/3D_Split&Merge.png', import.meta.url).href,
 };
 
 interface Project {
@@ -37,7 +37,7 @@ function Project() {
     const [selectedProject, setSelectedProject] = useState<string | null>(null);
 
     // Get all project keys from the translation file
-    const projectKeys = ['test'];
+    const projectKeys = ['3D_Split&Merge', 'Portfolio'];
 
     // Create projects array from translation data
     const Projects: Project[] = projectKeys.map(key => ({
@@ -48,7 +48,9 @@ function Project() {
         description: t(`${key}.description`),
         link: t(`${key}.link`, { defaultValue: '' }),
         thumbnail: projectThumbnails[key],
-        badges: (t(`${key}.badges`, { returnObjects: true }) || []) as string[]
+        badges: Array.isArray(t(`${key}.badges`, { returnObjects: true })) 
+            ? (t(`${key}.badges`, { returnObjects: true }) as string[]) 
+            : []
     }));
     
     return (
@@ -71,9 +73,9 @@ function Project() {
                                 />
                             )}
                             <Card.Body className="d-flex flex-column">
-                                <div className="d-flex flex-wrap mb-2">
-                                    {project.badges.slice(0, 3).map((badge, index) => (
-                                        <Badge key={index} bg='#4464AD' className='stack-badge m-1 ms-0'>{badge}</Badge>
+                                <div className="d-flex flex-wrap gap-1 mb-2">
+                                    {project.badges.map((badge, index) => (
+                                        <Badge key={index} bg='#4464AD' className='stack-badge'>{badge}</Badge>
                                     ))}
                                 </div>
                                 <Card.Title>{project.title}  {project.subtitle && <>- {project.subtitle}</>}</Card.Title>

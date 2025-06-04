@@ -36,30 +36,38 @@
 
 .project-card {
     transition: transform 0.2s ease-in-out;
-    border: 1px solid rgba(0, 0, 0, 0.125);
     cursor: pointer;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-color: #4464AD;
 }
 
 .project-thumbnail {
     height: 200px;
     object-fit: cover;
-    background-color: #f8f9fa;
 }
 
 .project-thumbnail-placeholder {
     height: 200px;
-    opacity: 0.3;
+    width: 100%;
 }
 
 .stack-badge {
     font-size: 0.8rem;
-    padding: 0.4em 0.8em;
+    padding: 0.4em 0.6em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+/* Ajustement de la taille des badges en fonction de la largeur de l'écran */
+@media (max-width: 768px) {
+    .stack-badge {
+        font-size: 0.7rem;
+        padding: 0.3em 0.5em;
+    }
 }
 
 .modal-body {

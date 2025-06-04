@@ -1,13 +1,22 @@
 {
     "viewMore": "Voir plus",
     "close": "Fermer",
-    "test": {
-        "title": "testTitre",
-        "subtitle": "Sub Titre",
-        "date": "Octobre 2023 - Mai 2024",
-        "description": "Descriptions",
+    "3D_Split&Merge": {
+        "title": "3D Split&Merge",
+        "subtitle": "Algorithme de segmentation d'images",
+        "date": "Septembre 2023 - Janvier 2024",
+        "description": "Implémentation et optimisation en C++ d'un algorithme de segmentation pour images multidimensionnelles. Projet de session de programmation d'une solution de segmentation d'images qui consiste à diviser une image en régions homogènes - un processus essentiel pour l'analyse d'images complexes (imagerie médicale IRM, détection de formes, reconstruction 3D).\n\nNous avons particulièrement travaillé sur l'amélioration de critères clés :\n- Déterminisme (pour des résultats reproductibles)\n- Qualité (pour une segmentation rigoureuse)\n- Rapidité (pour un traitement efficace)\n\nLe projet intègre plusieurs technologies : la bibliothèque Boost pour la manipulation des tableaux multidimensionnels, le multithreading pour accélérer les calculs, une gestion mémoire optimisée et des routines d'I/O pour divers formats d'images (NIfTI, PNG, JPEG, GIF).\n\nProjet passionnant qui m'a permis d'approfondir mes compétences en programmation bas niveau C++, en conception de structures de données orienté objet et en algorithmique avancée.\n\nProjet réalisé dans le cadre du cycle ingénieur à Polytech Tours.",
         "link": "https://github.com/EvanTrvs/3Dpics_SplitMerge",
         "thumbnail": "/assets/thumbnails/3D_Split&Merge.png",
-        "badges": ["test"]
+        "badges": ["C++", "Optimisation", "Imagerie", "Multithreading", "2👤"]
+    },
+    "Portfolio": {
+        "title": "Portfolio Personnel",
+        "subtitle": "Site web responsive",
+        "date": "Avril 2025",
+        "description": "Création d'un portfolio moderne et interactif présentant mon parcours et mes projets. Ce site web a été conçu pour offrir une navigation claire et intuitive tout en me permettant de mettre en pratique et d'apprendre les outils actuels de développement web.\n\nAspects du projet :\n- Interface utilisateur intuitive et responsive\n- Support multilingue (FR/EN)\n- Présentation structurée des projets\n- Intégration de médias et liens externes\n- Design moderne et professionnel\n\nTechnologies principales :\n• React avec TypeScript pour une base solide et typée\n• Bootstrap pour un design responsive\n• Vite pour des performances optimales",
+        "link": "https://github.com/EvanTrvs/EvanTrvs.github.io",
+        "thumbnail": "",
+        "badges": ["React", "TypeScript", "Bootstrap", "Front-end", "Back-end"]
     }
 }

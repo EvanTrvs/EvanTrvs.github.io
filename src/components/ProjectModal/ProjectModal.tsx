@@ -18,6 +18,22 @@ interface ProjectModalProps {
 function ProjectModal({ show, onHide, project }: ProjectModalProps) {
     const { t } = useTranslation('projects');
 
+    // Fonction pour formater la description avec les retours à la ligne
+    const formatDescription = (text: string) => {
+        return text.split('\n').map((line, index) => {
+            // Si la ligne commence par un tiret ou un point
+            if (line.trim().startsWith('-') || line.trim().startsWith('•') || line.trim().startsWith('✓')) {
+                return <li key={index}>{line.trim().substring(1).trim()}</li>;
+            }
+            // Si la ligne est vide, on ajoute un espacement
+            if (line.trim() === '') {
+                return <br key={index} />;
+            }
+            // Sinon, on affiche la ligne normalement
+            return <p key={index}>{line}</p>;
+        });
+    };
+
     return (
         <Modal show={show} onHide={onHide} size="lg">
             <Modal.Header closeButton>
@@ -37,7 +53,9 @@ function ProjectModal({ show, onHide, project }: ProjectModalProps) {
                         <span key={index} className="badge bg-primary me-2 mb-2">{badge}</span>
                     ))}
                 </div>
-                <p>{project.description}</p>
+                <div className="project-description">
+                    {formatDescription(project.description)}
+                </div>
             </Modal.Body>
             <Modal.Footer>
                 {project.link && <GitHubButton link={project.link} />}
