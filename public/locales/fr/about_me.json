@@ -1,0 +1,19 @@
+{
+    "aboutMe": {
+      "title": "À propos de moi",
+      "name": "Evan Tortevois",
+      "age": "Âge : {{age}} ans",
+      "student": "Étudiant en informatique",
+      "location": "Localisation : Québec (Province), Canada",
+      "resources": "Ressources",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "resume": "🇫🇷 Télécharger le CV",
+      "resume_link": "https://github.com/EvanTrvs/EvanTrvs.github.io/blob/main/public/docs/cv/CV_EvanTrvs_FR.pdf",
+      "languages": "Langues",
+      "french": "Français : Langue maternelle",
+      "english": "Anglais : Professionnel",
+      "skills": "Compétences"
+    }
+  }
+  

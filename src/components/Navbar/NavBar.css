@@ -1,0 +1,71 @@
+.portfolio-navbar{
+    font-size: xx-large;
+    backdrop-filter: blur(10px);
+    position:fixed;
+    z-index: 1000;
+}
+
+.portfolio-navbar-brand{
+    color: #4464AD;
+    font-weight: bold;
+    font-family: "Rock Salt";
+    font-size: x-large;
+}
+
+.portfolio-navbar-button{
+    background-color: white;
+    color: #4464AD;
+    border: 1px solid #4464AD;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.portfolio-navbar-link{
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: xx-large;
+    font-variant-caps: all-petite-caps;
+    margin-right: 25px;
+}
+
+.language-dropdown{
+    background-color: #4464AD;
+    border-color: #4464AD;
+}
+
+.language-dropdown:hover{
+    background-color: #355297;
+    border-color: #355297;
+}
+
+.language-dropdown:focus{
+    background-color: #355297;
+    border-color: #355297;
+}
+
+.language-switch {
+    margin-left: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.language-switch .form-check-input {
+    width: 3em;
+    height: 1.5em;
+    margin-top: 0.3em;
+    background-color: #4464AD;
+    border-color: #4464AD;
+}
+
+.language-switch .form-check-input:checked {
+    background-color: #4464AD;
+    border-color: #4464AD;
+}
+
+.language-switch .form-check-label {
+    margin-left: 10px;
+    color: rgb(71, 71, 71);
+    font-family: "Roboto";
+    font-variant-caps: all-petite-caps;
+}

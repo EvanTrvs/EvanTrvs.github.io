@@ -1,0 +1,25 @@
+.typewriter {
+  display: inline-block; /* S'assurer que l'effet s'applique uniquement au texte */
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Masquer le texte non encore "tapé" */
+  border-right: 0.10em solid #4464AD; /* Créer la barre de frappe */
+  white-space: nowrap; /* Empêche le retour à la ligne */
+  animation: 
+    typing 1.5s steps(20, end) forwards, /* Effet de frappe */
+    blink 1s step-end infinite; /* Effet de clignotement */
+  font-size: 5vw; /* Taille dynamique */
+  width: 0; /* Commence avec 0 largeur pour l'effet de frappe */
+}
+
+/* Animation de frappe */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Animation de clignotement */
+@keyframes blink {
+  50% { border-right-color: transparent; } /* Rend la barre invisible à 50% du cycle */
+}

@@ -1,0 +1,11 @@
+.linkedin-button{
+    background-color: #0A66C2;
+    color: white;
+    border-color: #0A66C2;
+    align-items: center;
+}
+
+.linkedin-button:hover{
+    background-color: #4480bd;
+    border-color: #4480bd;
+}
