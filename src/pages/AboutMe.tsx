@@ -24,7 +24,7 @@ function AboutMe() {
     <Container className="py-5">
         <Row>
             <Col xs={12} md={3}>
-                {/* <Image src='/portfolio/assets/pp.png' roundedCircle fluid /> */}
+                {/* <Image src='/assets/pp.png' roundedCircle fluid /> */}
                 <Col className="text-center mt-4">
                     <Row>
                         <h3>{t("aboutMe.name")}</h3>
@@ -60,7 +60,7 @@ function AboutMe() {
                             />
                             {t("aboutMe.linkedin")}
                         </Button>
-                        <a href={t('aboutMe.resume_link')} download target="_blank">
+                        <a href={`/docs/cv/${t('aboutMe.resume_link')}`} download>
                             <Button variant='warning' className="m-2">
                                 {t("aboutMe.resume")}
                             </Button>
