@@ -27,5 +27,14 @@
         "link": "https://github.com/EvanTrvs/Projet-RL-Frogger",
         "thumbnail": "/assets/thumbnails/rl_frogger.png",
         "badges": ["Python", "IA", "PyTorch", "Réseaux de neurones", "5👤"]
-    }
+    },
+	"GestionStock": {
+		"title": "Gestionnaire de Stock",
+		"subtitle": "Logiciel C#",
+		"date": "Octobre 2024 - Décembre 2024",
+		"description": "Conception et développement d'une application de gestion de stock avec une architecture robuste basée sur SQLite pour la persistance des données. Ce projet met en œuvre une solution complète de gestion de catalogue avec une base de données relationnelle embarquée, illustrant les bonnes pratiques de développement C# et de manipulation de données SQL.\n\nFonctionnalités principales :\n- Modélisation et gestion d'une base de données SQLite complexe\n- Requêtage SQL avancé pour les opérations de filtrage et recherche\n- Système de transactions ACID pour l'intégrité des données\n- Gestion des relations entre tables (articles, marques, familles)\n- Interface de gestion complète avec Windows Forms\n\nCe projet m'a permis d'approfondir mes compétences en développement d'applications connectées à une base de données, en particulier dans la conception de schémas relationnels et l'optimisation des requêtes SQL dans un contexte C#/.NET.\n\nProjet réalisé dans le cadre du cycle ingénieur à Polytech Tours.",
+		"link": "https://github.com/EvanTrvs/Gestionnaire_Stock",
+		"thumbnail": "/assets/thumbnails/gestion_stock.png",
+		"badges": ["C#", ".NET", "SQL", "MVC", "Formulaire Windows", "2👤"]
+	}
 }
