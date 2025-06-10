@@ -18,5 +18,14 @@
         "link": "https://github.com/EvanTrvs/EvanTrvs.github.io",
         "thumbnail": "",
         "badges": ["React", "TypeScript", "Bootstrap", "Front-end", "Back-end"]
+    },
+    "RL_Frogger": {
+        "title": "Apprentissage par Renforcement sur Frogger",
+        "subtitle": "Entrainement de modèles d'IA",
+        "date": "Janvier 2025 - Avril 2025",
+        "description": "Projet concret d'apprentissage par renforcement appliqué au jeu Atari Frogger, utilisant des technologies modernes d'intelligence artificielle. Ce défi technique consiste à entraîner des modèles autonomes capables de performer dans un environnement dynamique et non déterministe, en exploitant des outils comme OpenAI Gymnasium pour l'environnement de simulation et PyTorch pour l'implémentation des réseaux de neurones.\n\n- Implémentation de Deep Q-Network (DQN) et Trust Region Policy Optimization (TRPO)\n- Réseaux de neurones convolutifs (CNN) et fully-connected (FCNN) avec PyTorch\n- Entraînement accéléré par GPU (CUDA) et exécuté sur Google Cloud\n- Pipeline modulaire de prétraitement d'images (réduction, empilement de frames, extraction de features)\n- Système complet de suivi et d'analyse des résultats\n- Entraînement comparatif avec optimisation des hyperparamètres\n\nCe projet académique couvre l'ensemble du pipeline de développement en IA et démontre une application pratique des concepts d'apprentissage par renforcement adaptable à diverses problématiques complexes.\n\nProjet réalisé dans le cadre du cours IFT702 - Planification en intelligence artificielle, Université de Sherbrooke",
+        "link": "https://github.com/EvanTrvs/Projet-RL-Frogger",
+        "thumbnail": "/assets/thumbnails/rl_frogger.png",
+        "badges": ["Python", "IA", "PyTorch", "Réseaux de neurones", "5👤"]
     }
 }

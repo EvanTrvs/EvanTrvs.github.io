@@ -18,5 +18,14 @@
     "link": "https://github.com/EvanTrvs/EvanTrvs.github.io",
     "thumbnail": "",
     "badges": ["React", "TypeScript", "Bootstrap", "Frontend", "Backend"]
-    }
+    },
+    "RL_Frogger": {
+    "title": "Reinforcement Learning on Atari Frogger",
+    "subtitle": "Training Autonomous AI Agents",
+    "date": "January 2025 - April 2025",
+    "description": "Concrete reinforcement learning project applied to Atari Frogger, leveraging modern artificial intelligence technologies. This technical challenge involved training autonomous agents to perform in a dynamic, non-deterministic environment using OpenAI Gymnasium for simulation and PyTorch for neural network implementation.\n\n- Implemented Deep Q-Network (DQN) and Trust Region Policy Optimization (TRPO) algorithms\n- Developed convolutional (CNN) and fully-connected (FCNN) neural networks using PyTorch\n- Accelerated GPU training (CUDA) executed on Google Cloud infrastructure\n- Modular image preprocessing pipeline (dimensionality reduction, frame stacking, feature extraction)\n- Comprehensive performance tracking and results analysis system\n- Comparative training with hyperparameter optimization\n\nThis academic project covered the complete AI development pipeline, demonstrating practical applications of reinforcement learning concepts adaptable to various complex problems.\n\nProject completed as part of the IFT702 - Artificial Intelligence Planning course at Université de Sherbrooke",
+    "link": "https://github.com/EvanTrvs/Projet-RL-Frogger",
+    "thumbnail": "/assets/thumbnails/rl_frogger.png",
+    "badges": ["Python", "AI", "PyTorch", "Neural Networks", "5👤"]
+  }
 }
