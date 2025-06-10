@@ -18,5 +18,23 @@
         "link": "https://github.com/EvanTrvs/EvanTrvs.github.io",
         "thumbnail": "",
         "badges": ["React", "TypeScript", "Bootstrap", "Front-end", "Back-end"]
+    },
+    "RL_Frogger": {
+        "title": "Apprentissage par Renforcement sur Frogger",
+        "subtitle": "Entrainement de modèles d'IA",
+        "date": "Janvier 2025 - Avril 2025",
+        "description": "Projet concret d'apprentissage par renforcement appliqué au jeu Atari Frogger, utilisant des technologies modernes d'intelligence artificielle. Ce défi technique consiste à entraîner des modèles autonomes capables de performer dans un environnement dynamique et non déterministe, en exploitant des outils comme OpenAI Gymnasium pour l'environnement de simulation et PyTorch pour l'implémentation des réseaux de neurones.\n\n- Implémentation de Deep Q-Network (DQN) et Trust Region Policy Optimization (TRPO)\n- Réseaux de neurones convolutifs (CNN) et fully-connected (FCNN) avec PyTorch\n- Entraînement accéléré par GPU (CUDA) et exécuté sur Google Cloud\n- Pipeline modulaire de prétraitement d'images (réduction, empilement de frames, extraction de features)\n- Système complet de suivi et d'analyse des résultats\n- Entraînement comparatif avec optimisation des hyperparamètres\n\nCe projet académique couvre l'ensemble du pipeline de développement en IA et démontre une application pratique des concepts d'apprentissage par renforcement adaptable à diverses problématiques complexes.\n\nProjet réalisé dans le cadre du cours IFT702 - Planification en intelligence artificielle, Université de Sherbrooke",
+        "link": "https://github.com/EvanTrvs/Projet-RL-Frogger",
+        "thumbnail": "/assets/thumbnails/rl_frogger.png",
+        "badges": ["Python", "IA", "PyTorch", "Réseaux de neurones", "5👤"]
+    },
+	"GestionStock": {
+		"title": "Gestionnaire de Stock",
+		"subtitle": "Logiciel C#",
+        "date": "Octobre 2024 - Décembre 2024",
+		"description": "Conception et développement d'une application de gestion de stock avec une architecture robuste basée sur SQLite pour la persistance des données. Ce projet met en œuvre une solution complète de gestion de catalogue avec une base de données relationnelle embarquée, illustrant les bonnes pratiques de développement C# et de manipulation de données SQL.\n\nFonctionnalités principales :\n- Modélisation et gestion d'une base de données SQLite complexe\n- Requêtage SQL avancé pour les opérations de filtrage et recherche\n- Système de transactions ACID pour l'intégrité des données\n- Gestion des relations entre tables (articles, marques, familles)\n- Interface de gestion complète avec Windows Forms\n\nCe projet m'a permis d'approfondir mes compétences en développement d'applications connectées à une base de données, en particulier dans la conception de schémas relationnels et l'optimisation des requêtes SQL dans un contexte C#/.NET.\n\nProjet réalisé dans le cadre du cycle ingénieur à Polytech Tours.",
+		"link": "https://github.com/EvanTrvs/Gestionnaire_Stock",
+		"thumbnail": "/assets/thumbnails/gestion_stock.png",
+		"badges": ["C#", ".NET", "SQL", "MVC", "Formulaire Windows", "2👤"]
     }
 }
