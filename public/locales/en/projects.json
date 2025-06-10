@@ -1,5 +1,5 @@
 {
-    "viewMore": "View More",
+	"viewMore": "View More",
     "close": "Close",
     "3D_Split&Merge": {
         "title": "3D Split&Merge",
@@ -11,12 +11,30 @@
         "badges": ["C++", "Optimization", "Imaging", "Multithreading", "2👤"]
     },
     "Portfolio": {
-    "title": "Personal Portfolio Website",
-    "subtitle": "Responsive Web Application",
-    "date": "April 2025",
-    "description": "Development of a modern, interactive portfolio showcasing my professional journey and projects. This website was designed to provide clear and intuitive navigation while allowing me to practice and learn current web development tools.\n\nProject aspects:\n- Intuitive and responsive user interface\n- Multilingual support (FR/EN)\n- Structured project presentation\n- Media integration and external links\n- Modern and professional design\n\nKey technologies:\n• React with TypeScript for a robust, type-safe foundation\n• Bootstrap for responsive design\n• Vite for optimal performance",
-    "link": "https://github.com/EvanTrvs/EvanTrvs.github.io",
-    "thumbnail": "",
-    "badges": ["React", "TypeScript", "Bootstrap", "Frontend", "Backend"]
+		"title": "Personal Portfolio Website",
+		"subtitle": "Responsive Web Application",
+		"date": "April 2025",
+		"description": "Development of a modern, interactive portfolio showcasing my professional journey and projects. This website was designed to provide clear and intuitive navigation while allowing me to practice and learn current web development tools.\n\nProject aspects:\n- Intuitive and responsive user interface\n- Multilingual support (FR/EN)\n- Structured project presentation\n- Media integration and external links\n- Modern and professional design\n\nKey technologies:\n• React with TypeScript for a robust, type-safe foundation\n• Bootstrap for responsive design\n• Vite for optimal performance",
+		"link": "https://github.com/EvanTrvs/EvanTrvs.github.io",
+		"thumbnail": "",
+		"badges": ["React", "TypeScript", "Bootstrap", "Frontend", "Backend"]
+    },
+    "RL_Frogger": {
+		"title": "Reinforcement Learning on Atari Frogger",
+		"subtitle": "Training Autonomous AI Agents",
+		"date": "January 2025 - April 2025",
+		"description": "Concrete reinforcement learning project applied to Atari Frogger, leveraging modern artificial intelligence technologies. This technical challenge involved training autonomous agents to perform in a dynamic, non-deterministic environment using OpenAI Gymnasium for simulation and PyTorch for neural network implementation.\n\n- Implemented Deep Q-Network (DQN) and Trust Region Policy Optimization (TRPO) algorithms\n- Developed convolutional (CNN) and fully-connected (FCNN) neural networks using PyTorch\n- Accelerated GPU training (CUDA) executed on Google Cloud infrastructure\n- Modular image preprocessing pipeline (dimensionality reduction, frame stacking, feature extraction)\n- Comprehensive performance tracking and results analysis system\n- Comparative training with hyperparameter optimization\n\nThis academic project covered the complete AI development pipeline, demonstrating practical applications of reinforcement learning concepts adaptable to various complex problems.\n\nProject completed as part of the IFT702 - Artificial Intelligence Planning course at Université de Sherbrooke",
+		"link": "https://github.com/EvanTrvs/Projet-RL-Frogger",
+		"thumbnail": "/assets/thumbnails/rl_frogger.png",
+		"badges": ["Python", "AI", "PyTorch", "Neural Networks", "5👤"]
+	},
+	"GestionStock": {
+		"title": "Stock Manager",
+		"subtitle": "C# Software",
+        "date": "October 2024 - December 2024",
+		"description": "Design and development of a stock management application with a robust architecture based on SQLite for data persistence. This project implements a comprehensive catalog management solution with an embedded relational database, demonstrating best practices in C# development and SQL data manipulation.\n\nKey Features:\n- Modeling and management of a complex SQLite database\n- Advanced SQL querying for filtering and search operations\n- ACID transaction system for data integrity\n- Management of relationships between tables (items, brands, families)\n- Complete management interface with Windows Forms\n\nThis project allowed me to deepen my skills in developing database-connected applications, particularly in designing relational schemas and optimizing SQL queries in a C#/.NET context.\n\nProject completed as part of the engineering cycle at Polytech Tours.",
+		"link": "https://github.com/EvanTrvs/Gestionnaire_Stock",
+		"thumbnail": "/assets/thumbnails/gestion_stock.png",
+		"badges": ["C#", ".NET", "SQL", "MVC", "Windows Forms", "2👤"]
     }
 }
