@@ -42,5 +42,5 @@ To get a local copy up and running, follow these steps:
 ## Contact
 
 Feel free to reach out if you have any questions or suggestions!
-- LinkedIn: [linkedin.com/in/adrienlarousse/](https://www.linkedin.com/in/evantrvs)
+- LinkedIn: [linkedin.com/in/evantrvs/](https://www.linkedin.com/in/evantrvs)
 - GitHub: [github.com/evantrvs](https://github.com/evantrvs)
