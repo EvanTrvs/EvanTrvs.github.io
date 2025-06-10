@@ -12,11 +12,11 @@ const MouseTracker = () => {
         outerAlpha={0}
         innerStyle={{
           backgroundColor: 'var(--cursor-color)',
-          zIndex: 1001,
+          zIndex: 9999,
         }}
         outerStyle={{
           border: '3px solid var(--cursor-color)',
-          zIndex: 1001,
+          zIndex: 9999,
         }}
       />
     )
