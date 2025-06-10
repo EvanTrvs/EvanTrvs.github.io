@@ -9,7 +9,7 @@ i18n
 .init({
     backend: {
         loadPath: '/locales/{{lng}}/{{ns}}.json',
-    },
+        },
     lng: 'fr',
     fallbackLng: 'fr',
     ns: ['navbar', 'core_components', 'timeline', "projects", "about_me"],
