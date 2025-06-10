@@ -50,15 +50,19 @@ jobs:
           echo "" >> ./dist/_headers
           echo "/*.js" >> ./dist/_headers
           echo "  Content-Type: application/javascript; charset=utf-8" >> ./dist/_headers
+          echo "  X-Content-Type-Options: nosniff" >> ./dist/_headers
           echo "" >> ./dist/_headers
           echo "/*.mjs" >> ./dist/_headers
           echo "  Content-Type: application/javascript; charset=utf-8" >> ./dist/_headers
+          echo "  X-Content-Type-Options: nosniff" >> ./dist/_headers
           echo "" >> ./dist/_headers
           echo "/*.ts" >> ./dist/_headers
           echo "  Content-Type: application/javascript; charset=utf-8" >> ./dist/_headers
+          echo "  X-Content-Type-Options: nosniff" >> ./dist/_headers
           echo "" >> ./dist/_headers
           echo "/*.tsx" >> ./dist/_headers
           echo "  Content-Type: application/javascript; charset=utf-8" >> ./dist/_headers
+          echo "  X-Content-Type-Options: nosniff" >> ./dist/_headers
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
