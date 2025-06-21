@@ -17,7 +17,7 @@
 		"description": "Development of a modern, interactive portfolio showcasing my professional journey and projects. This website was designed to provide clear and intuitive navigation while allowing me to practice and learn current web development tools.\n\nProject aspects:\n- Intuitive and responsive user interface\n- Multilingual support (FR/EN)\n- Structured project presentation\n- Media integration and external links\n- Modern and professional design\n\nKey technologies:\n• React with TypeScript for a robust, type-safe foundation\n• Bootstrap for responsive design\n• Vite for optimal performance",
 		"link": "https://github.com/EvanTrvs/EvanTrvs.github.io",
 		"thumbnail": "",
-		"badges": ["React", "TypeScript", "Bootstrap", "Frontend", "Backend"]
+		"badges": ["React", "TypeScript", "Bootstrap", "Frontend", "Web"]
     },
     "RL_Frogger": {
 		"title": "Reinforcement Learning on Atari Frogger",
@@ -35,6 +35,15 @@
 		"description": "Design and development of a stock management application with a robust architecture based on SQLite for data persistence. This project implements a comprehensive catalog management solution with an embedded relational database, demonstrating best practices in C# development and SQL data manipulation.\n\nKey Features:\n- Modeling and management of a complex SQLite database\n- Advanced SQL querying for filtering and search operations\n- ACID transaction system for data integrity\n- Management of relationships between tables (items, brands, families)\n- Complete management interface with Windows Forms\n\nThis project allowed me to deepen my skills in developing database-connected applications, particularly in designing relational schemas and optimizing SQL queries in a C#/.NET context.\n\nProject completed as part of the engineering cycle at Polytech Tours.",
 		"link": "https://github.com/EvanTrvs/Gestionnaire_Stock",
 		"thumbnail": "/assets/thumbnails/gestion_stock.png",
-		"badges": ["C#", ".NET", "SQL", "MVC", "Windows Forms", "2👤"]
+		"badges": ["C#", ".NET", "SQLite", "CRUD", "WinForms", "2👤"]
+    },
+"ML_comparison": {
+        "title": "Comparative Study on Machine Learning",
+        "subtitle": "Real-world Classification Problem",
+        "date": "November 2024 - December 2024",
+        "description": "This project aims to compare several classification models on a binary classification dataset. The study uses advanced techniques in data preparation, model training, hyperparameter optimization, and performance evaluation.\n\nKey aspects of the project:\n- Data preprocessing: cleaning, normalization, and encoding of categorical and numerical variables.\n- Classification algorithms: logistic regression, K-nearest neighbors, SVM, neural networks, decision trees.\n- Cross-validation: K-fold method to reliably evaluate models.\n- Hyperparameter optimization: systematic search to improve model performance.\n- Model evaluation: use of metrics such as accuracy, precision, recall, and F1 score to compare model performance.\n- Statistical tests: use of Student's tests to statistically compare model performances.\n\nThis project illustrates a comprehensive scientific approach to comparing classification models with real-world data, using best practices in machine learning and data science.\n\nProject completed as part of the IFT712 - Learning Techniques course, University of Sherbrooke.",
+        "link": "https://github.com/EvanTrvs/ML_comparison",
+        "thumbnail": "/assets/thumbnails/ML_comparison.jpg",
+        "badges": ["Python", "Data Science", "Scikit-learn", "Machine Learning", "Scientific Method", "4👤"]
     }
 }
