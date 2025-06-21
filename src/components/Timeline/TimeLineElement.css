@@ -8,5 +8,6 @@
 .view-detail-button:hover{
     background-color: white;
     color: #FFA926;
+    border-color: #FFA926;
 }
 

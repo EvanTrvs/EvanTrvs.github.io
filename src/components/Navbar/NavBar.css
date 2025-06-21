@@ -8,7 +8,7 @@
 .portfolio-navbar-brand{
     color: #FFA926;
     font-weight: bold;
-    font-family: "Rock Salt";
+    font-family: "Aldrich";
     font-size: x-large;
 }
 
@@ -35,13 +35,13 @@
 }
 
 .language-dropdown:hover{
-    background-color: #355297;
-    border-color: #355297;
+    background-color: #a0773a;
+    border-color: #a0773a;
 }
 
 .language-dropdown:focus{
-    background-color: #355297;
-    border-color: #355297;
+    background-color: #a0773a;
+    border-color: #a0773a;
 }
 
 .language-switch {
