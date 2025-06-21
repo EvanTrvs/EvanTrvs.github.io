@@ -28,12 +28,12 @@
 
 .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgba(237, 237, 247, 0), rgb(237, 237, 247));
+    background: linear-gradient(to left, rgba(237, 237, 247, 0), #eaeaea);
 }
 
 .logos:after {
     right: 0;
-    background: linear-gradient(to right, rgba(237, 237, 247, 0), #ededf7);
+    background: linear-gradient(to right, rgba(237, 237, 247, 0), #eaeaea);
 }
 
 .logos:hover .logos-slide {

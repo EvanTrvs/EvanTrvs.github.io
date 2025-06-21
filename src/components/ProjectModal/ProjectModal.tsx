@@ -50,7 +50,7 @@ function ProjectModal({ show, onHide, project }: ProjectModalProps) {
                 )}
                 <div className="mb-3">
                     {project.badges.map((badge, index) => (
-                        <span key={index} className="badge bg-primary me-2 mb-2">{badge}</span>
+                        <span key={index} className="badge me-2 mb-2 stack-badge">{badge}</span>
                     ))}
                 </div>
                 <div className="project-description">
