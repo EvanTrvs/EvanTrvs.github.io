@@ -11,13 +11,13 @@ function Title () {
         <>
         <Container>
         <Container style={{width: "fit-content", textAlign: "right"}}>
-            <h1>{t("title.line1")}🚀</h1>
+            <h1 style={{fontFamily: "Aldrich"}}>&gt; {t("title.line1")} _</h1>
             <div className='typewriter' style={{ display: 'flex', alignItems: 'center' }}>
                 <h1 style={{ margin: 0, padding: 0 }}>
                     {t("title.line2")}&nbsp;
                     <span style={{
-                        color: "#4464AD", 
-                        fontFamily: "Rock Salt",
+                        color: "#FFA926", 
+                        fontFamily: "Aldrich",
                         display: 'inline-block',
                         transform: 'scale(01)',
                         transformOrigin: 'left center',

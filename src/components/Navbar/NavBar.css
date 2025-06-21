@@ -6,7 +6,7 @@
 }
 
 .portfolio-navbar-brand{
-    color: #4464AD;
+    color: #FFA926;
     font-weight: bold;
     font-family: "Rock Salt";
     font-size: x-large;
@@ -14,8 +14,8 @@
 
 .portfolio-navbar-button{
     background-color: white;
-    color: #4464AD;
-    border: 1px solid #4464AD;
+    color: #FFA926;
+    border: 1px solid #FFA926;
     border-radius: 5px;
     padding: 5px 10px;
 }
@@ -30,8 +30,8 @@
 }
 
 .language-dropdown{
-    background-color: #4464AD;
-    border-color: #4464AD;
+    background-color: #FFA926;
+    border-color: #FFA926;
 }
 
 .language-dropdown:hover{
@@ -54,13 +54,13 @@
     width: 3em;
     height: 1.5em;
     margin-top: 0.3em;
-    background-color: #4464AD;
-    border-color: #4464AD;
+    background-color: #FFA926;
+    border-color: #FFA926;
 }
 
 .language-switch .form-check-input:checked {
-    background-color: #4464AD;
-    border-color: #4464AD;
+    background-color: #FFA926;
+    border-color: #FFA926;
 }
 
 .language-switch .form-check-label {

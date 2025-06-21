@@ -4,8 +4,9 @@
 
 .typewriter h1 {
   overflow: hidden; /* Masquer le texte non encore "tapé" */
-  border-right: 0.10em solid #4464AD; /* Créer la barre de frappe */
+  border-right: 0.10em solid #FFA926; /* Créer la barre de frappe */
   white-space: nowrap; /* Empêche le retour à la ligne */
+  font-family: Aldrich;
   animation: 
     typing 1.5s steps(20, end) forwards, /* Effet de frappe */
     blink 1s step-end infinite; /* Effet de clignotement */

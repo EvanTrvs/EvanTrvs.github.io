@@ -77,7 +77,7 @@ function Project() {
                             <Card.Body className="d-flex flex-column">
                                 <div className="d-flex flex-wrap gap-1 mb-2">
                                     {project.badges.map((badge, index) => (
-                                        <Badge key={index} bg='#4464AD' className='stack-badge'>{badge}</Badge>
+                                        <Badge key={index} bg='#FFA926' className='stack-badge'>{badge}</Badge>
                                     ))}
                                 </div>
                                 <Card.Title>{project.title}  {project.subtitle && <>- {project.subtitle}</>}</Card.Title>
