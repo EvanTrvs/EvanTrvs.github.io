@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import Title from "./Title";
 import LogosComponent from "../Logos/LogosComponent";
-import { AiOutlineArrowDown } from "react-icons/ai";
+import { BsChevronDown  } from "react-icons/bs";
 
 function TitleComponent(){
     return (
@@ -39,7 +39,9 @@ function TitleComponent(){
           <div className='infinite-arrow'>
             <a href="#project">
 
-          <AiOutlineArrowDown size={50} style={{color:"#4464AD"}} />
+          <BsChevronDown  size={50} style={{color:"#FFA926"}} />
+          <BsChevronDown  size={50} style={{color:"#FFA926"}} />
+          <BsChevronDown  size={50} style={{color:"#FFA926"}} />
             </a>
           </div>
         </div>

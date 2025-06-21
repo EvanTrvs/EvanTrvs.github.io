@@ -16,7 +16,7 @@ function ProjectLayout ({ children } : { children: React.ReactNode }) {
           {children}
           <div className='infinite-arrow text-center py-5'>
             <a href="#project" className="text-center">
-              <FaArrowUp size={50} style={{color:"#4464AD"}} />
+              <FaArrowUp size={50} style={{color:"#FFA926"}} />
             </a>
           </div>
         </Container>

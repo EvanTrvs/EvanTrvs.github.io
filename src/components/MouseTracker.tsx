@@ -5,8 +5,8 @@ const MouseTracker = () => {
   return (
     !isMobile && (
       <AnimatedCursor
-        innerSize={8}
-        outerSize={35}
+        innerSize={9}
+        outerSize={34}
         innerScale={1}
         outerScale={2}
         outerAlpha={0}
@@ -15,7 +15,7 @@ const MouseTracker = () => {
           zIndex: 9999,
         }}
         outerStyle={{
-          border: '3px solid var(--cursor-color)',
+          border: '1.5px solid var(--cursor-color)',
           zIndex: 9999,
         }}
       />

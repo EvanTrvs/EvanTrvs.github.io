@@ -28,12 +28,12 @@
 
 .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgba(237, 237, 247, 0), rgb(237, 237, 247));
+    background: linear-gradient(to left, rgba(237, 237, 247, 0), #eaeaea);
 }
 
 .logos:after {
     right: 0;
-    background: linear-gradient(to right, rgba(237, 237, 247, 0), #ededf7);
+    background: linear-gradient(to right, rgba(237, 237, 247, 0), #eaeaea);
 }
 
 .logos:hover .logos-slide {
@@ -50,4 +50,14 @@ animation-play-state: paused;
     height: 5vh;
     width: auto;
     margin: 0 40px;
+    transition: transform 0.2s, filter 0.2s;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.logos-slide img:hover {
+    transform: scale(1.12) rotate(-3deg);
+    filter: brightness(1.15) drop-shadow(0 2px 8px rgba(255,169,38,0.25));
 }

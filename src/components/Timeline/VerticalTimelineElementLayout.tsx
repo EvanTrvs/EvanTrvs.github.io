@@ -41,15 +41,15 @@ function VerticalTimelineElementLayout({ title, date, icon, subtitle, content, d
     return (
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', borderTop: '3px solid #4464AD'}}
+            contentStyle={{ background: 'white', borderTop: '3px solid #FFA926'}}
             date={date}
-            iconStyle={{ background: '#4464AD', color: '#fff' }}
+            iconStyle={{ background: '#FFA926', color: '#fff' }}
             icon={icon}
-            contentArrowStyle={{ borderRight: '7px solid  #4464AD', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #FFA926', color: '#fff' }}
         >
             <div className="d-flex flex-wrap">
             {badges && badges.map((badge, index) => (
-                                    <Badge key={index} bg='#4464AD' className='stack-badge m-1 ms-0'>{badge}</Badge>
+                                    <Badge key={index} bg='#FFA926' className='stack-badge m-1 ms-0'>{badge}</Badge>
                                 ))}
             </div>
             <h3 className="mb-2">{title}</h3>
