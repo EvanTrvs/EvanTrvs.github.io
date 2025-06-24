@@ -9,6 +9,8 @@ const projectThumbnails: { [key: string]: string } = {
     '3D_Split&Merge': new URL('../assets/thumbnails/3D_Split&Merge.png', import.meta.url).href,
     'RL_Frogger': new URL('../assets/thumbnails/rl_frogger.png', import.meta.url).href,
     'GestionStock': new URL('../assets/thumbnails/gestion_stock.png', import.meta.url).href,
+	'ML_comparison': new URL('../assets/thumbnails/ML_comparison.jpg', import.meta.url).href,
+	'HexGame-Platform': new URL('../assets/thumbnails/HexGame-Platform.png', import.meta.url).href
 };
 
 interface Project {
@@ -39,7 +41,7 @@ function Project() {
     const [selectedProject, setSelectedProject] = useState<string | null>(null);
 
     // Get all project keys from the translation file
-    const projectKeys = ['RL_Frogger', '3D_Split&Merge', 'Portfolio', 'GestionStock'];
+    const projectKeys = ['RL_Frogger', '3D_Split&Merge', 'Portfolio', 'ML_comparison', 'HexGame-Platform', 'GestionStock', 'QT_UserManager'];
 
     // Create projects array from translation data
     const Projects: Project[] = projectKeys.map(key => ({

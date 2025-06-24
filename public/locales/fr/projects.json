@@ -17,7 +17,7 @@
         "description": "Création d'un portfolio moderne et interactif présentant mon parcours et mes projets. Ce site web a été conçu pour offrir une navigation claire et intuitive tout en me permettant de mettre en pratique et d'apprendre les outils actuels de développement web.\n\nAspects du projet :\n- Interface utilisateur intuitive et responsive\n- Support multilingue (FR/EN)\n- Présentation structurée des projets\n- Intégration de médias et liens externes\n- Design moderne et professionnel\n\nTechnologies principales :\n• React avec TypeScript pour une base solide et typée\n• Bootstrap pour un design responsive\n• Vite pour des performances optimales",
         "link": "https://github.com/EvanTrvs/EvanTrvs.github.io",
         "thumbnail": "",
-        "badges": ["React", "TypeScript", "Bootstrap", "Front-end", "Back-end"]
+        "badges": ["React", "TypeScript", "Bootstrap", "Front-end", "Web"]
     },
     "RL_Frogger": {
         "title": "Apprentissage par Renforcement sur Frogger",
@@ -35,6 +35,33 @@
 		"description": "Conception et développement d'une application de gestion de stock avec une architecture robuste basée sur SQLite pour la persistance des données. Ce projet met en œuvre une solution complète de gestion de catalogue avec une base de données relationnelle embarquée, illustrant les bonnes pratiques de développement C# et de manipulation de données SQL.\n\nFonctionnalités principales :\n- Modélisation et gestion d'une base de données SQLite complexe\n- Requêtage SQL avancé pour les opérations de filtrage et recherche\n- Système de transactions ACID pour l'intégrité des données\n- Gestion des relations entre tables (articles, marques, familles)\n- Interface de gestion complète avec Windows Forms\n\nCe projet m'a permis d'approfondir mes compétences en développement d'applications connectées à une base de données, en particulier dans la conception de schémas relationnels et l'optimisation des requêtes SQL dans un contexte C#/.NET.\n\nProjet réalisé dans le cadre du cycle ingénieur à Polytech Tours.",
 		"link": "https://github.com/EvanTrvs/Gestionnaire_Stock",
 		"thumbnail": "/assets/thumbnails/gestion_stock.png",
-		"badges": ["C#", ".NET", "SQL", "MVC", "Formulaire Windows", "2👤"]
-    }
+		"badges": ["C#", ".NET", "SQLite", "CRUD", "Desktop App", "2👤"]
+    },
+"ML_comparison": {
+        "title": "Étude comparative Machine learning",
+        "subtitle": "Problème réel de classification",
+        "date": "Novembre 2024 - Décembre 2024",
+        "description": "Ce projet vise à comparer plusieurs modèles de classification sur un jeu de données de classification binaire. L'étude utilise des techniques avancées de préparation des données, d'entraînement de modèles, d'optimisation des hyperparamètres et d'évaluation des performances.\n\nAspects clés du projet :\n- Prétraitement des données : nettoyage, normalisation et encodage des variables catégorielles et numériques.\n- Algorithmes de classification : régression logistique, K plus proches voisins, SVM, réseaux de neurones, arbres de décision.\n- Validation croisée : méthode K-fold pour évaluer les modèles de manière fiable.\n- Optimisation des hyperparamètres : recherche systématique pour améliorer les performances des modèles.\n- Évaluation des modèles : utilisation de métriques comme la justesse, la précision, le rappel, et le score F1 pour comparer les performances des modèles.\n- Tests statistiques : utilisation de tests de Student pour comparer les performances des modèles de manière statistique.\n\nCe projet illustre une approche scientifique complète pour comparer des modèles de classification avec des données réelles, en utilisant les meilleures pratiques du machine learning et de science des données.\n\nProjet réalisé dans le cadre du cours IFT712 - Techniques d'apprentissage, Université de Sherbrooke.",
+        "link": "https://github.com/EvanTrvs/ML_comparison",
+        "thumbnail": "/assets/thumbnails/ML_comparison.jpg",
+        "badges": ["Python", "Science des données", "Scikit-learn", "Machine Learning", "Méthode scientifique", "4👤"]
+    },
+"QT_UserManager": {
+    "title": "Gestionnaire d'Accès Utilisateur",
+    "subtitle": "Logiciel Qt",
+    "date": "Octobre 2024 - Décembre 2024",
+    "description": "Développement d'une application pour la gestion et la visualisation de bases de données SQLite avec le framework Qt 6 en C++. Ce projet met en œuvre une interface graphique, la persistance des données en JSON et l'application des bonnes pratiques de génie logiciel.\n\nAxes principaux :\n- Gestion des droits d'accès (4 niveaux)\n- Opérations CRUD sur bases de données SQLite\n- Interface graphique avec Qt Widgets\n- Persistance des données en JSON\n- Application des bonnes pratiques (nommage, commentaires, documentation Doxygen).\n\nProjet réalisé dans le cadre du cycle ingénieur à Polytech Tours.",
+    "link": "https://github.com/EvanTrvs/QT_UserManager",
+    "thumbnail": "",
+    "badges": ["C++", "Qt", "SQLite", "Desktop App", "Génie logiciel"]
+},
+"HexGame-Platform": {
+    "title": "HexGame-Platform",
+    "subtitle": "Gestion et analyse d'ensembles de parties",
+    "date": "Février 2025 - Avril 2025",
+    "description": "HexGame-Platform est une plateforme complète pour jouer, gérer et analyser des parties du jeu de Hex. Développée avec une architecture modulaire et orientée objet en Python, cette plateforme utilise une interface web moderne basée sur Flask.\n\nAxes majeurs du projet :\n- Implémentation des principes SOLID et des design patterns (MVC, Factory, Strategy) pour une conception robuste et évolutive\n- Gestion avancée de bases de données pour l'analyse des parties et l'entraînement de modèles IA\n- Développement de bots de jeu à heuristiques simples et environnement d'entraînement pour agents IA\n- Système de sauvegarde multi-format universel, capable de lire et écrire tout type de format de partie manipulé\n- Gestion et labellisation d'ensembles de parties pour une analyse et un traitement efficaces\n- Interface utilisateur web responsive et conviviale\n- Couverture de tests complète avec Pytest et documentation détaillée\n\nCe projet se veut un outil universel pour la gestion des données de parties, intégrant une approche rigoureuse de génie logiciel et de programmation orientée objet avec des design patterns pour assurer une maintenabilité et une extensibilité optimales.\n\nProjet personnel évolutif et ouvert à de grandes évolutions.",
+    "link": "https://github.com/EvanTrvs/HexGame-Platform",
+    "thumbnail": "HexGame-Platform.jpg",
+    "badges": ["Python", "Flask", "MVC", "Design Pattern", "SOLID", "Pytest"]
+}
 }
