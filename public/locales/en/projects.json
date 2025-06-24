@@ -45,5 +45,22 @@
         "link": "https://github.com/EvanTrvs/ML_comparison",
         "thumbnail": "/assets/thumbnails/ML_comparison.jpg",
         "badges": ["Python", "Data Science", "Scikit-learn", "Machine Learning", "Scientific Method", "4👤"]
-    }
+    },"QT_UserManager": {
+    "title": "User Access Manager",
+    "subtitle": "Qt Software",
+    "date": "October 2024 - December 2024",
+    "description": "Development of an application for managing and visualizing SQLite databases using the Qt 6 framework in C++. This project implements a graphical user interface, data persistence in JSON, and follows software engineering best practices.\n\nKey Features:\n- Access rights management (4 levels)\n- CRUD operations on SQLite databases\n- Graphical interface with Qt Widgets\n- Data persistence in JSON\n- Implementation of best practices (naming, comments, Doxygen documentation).\n\nProject carried out as part of the engineering program at Polytech Tours.",
+    "link": "https://github.com/EvanTrvs/QT_UserManager",
+    "thumbnail": "",
+    "badges": ["C++", "Qt", "SQLite", "Desktop App", "Software Engineering"]
+},
+"HexGame-Platform": {
+    "title": "HexGame-Platform",
+    "subtitle": "Management and Analysis of Game Sets",
+    "date": "February 2025 - April 2025",
+    "description": "HexGame-Platform is a comprehensive platform for playing, managing, and analyzing games of Hex. Developed with a modular and object-oriented architecture in Python, this platform uses a modern web interface based on Flask.\n\nMajor axes of the project:\n- Implementation of SOLID principles and design patterns (MVC, Factory, Strategy) for robust and scalable design\n- Advanced database management for game analysis and training AI models\n- Development of game bots with simple heuristics and a training environment for AI agents\n- Universal multi-format backup system, capable of reading and writing any type of game format handled\n- Management and labeling of game sets for efficient analysis and processing\n- Responsive and user-friendly web interface\n- Comprehensive test coverage with Pytest and detailed documentation\n\nThis project aims to be a universal tool for managing game data, integrating a rigorous approach to software engineering and object-oriented programming with design patterns to ensure optimal maintainability and extensibility.\n\nPersonal project open to major developments.",
+    "link": "https://github.com/EvanTrvs/HexGame-Platform",
+    "thumbnail": "HexGame-Platform.jpg",
+    "badges": ["Python", "Flask", "MVC", "Design Pattern", "SOLID", "Pytest"]
+}
 }
