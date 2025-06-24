@@ -1,0 +1,8 @@
+Idées de contenu supplémentaire:
+
+Data Science : Cours UdS Science de données/Forage
+Traitement d'image: Recalage, débruitage, Nuage de points
+Gestion de projet : Ekodu ?
+IA : Polytech projet
+Threading projet
+
